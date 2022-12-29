@@ -1,0 +1,5 @@
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1440px) and (orientation: landscape) {
+	article {width: 100%;}
+	article > * {width: 1440px;}
+}

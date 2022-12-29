@@ -1,0 +1,499 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  overflow: scroll;
+}
+article > * {
+  width: 100vw;
+  height: 100vw;
+  max-width: 1440px;
+  max-height: 2260px;
+  display: block;
+}
+.black_rect1 {
+  height: 28vh;
+  width: 100vw;
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.title {
+  min-width: 10vw;
+  min-height: 10vh;
+  max-height: 75vh;
+  max-width: 75vw;
+  position: relative;
+  margin-top: 20px;
+}
+.redhandleft {
+  min-width: 10vw;
+  min-height: 10vh;
+  max-height: 75vh;
+  max-width: 75vw;
+  position: relative;
+  margin-top: 20px;
+  margin-left: -50px;
+  animation: rhl 4s infinite;
+}
+.redhandright {
+  min-width: 10vw;
+  min-height: 10vh;
+  max-height: 75vh;
+  max-width: 75vw;
+  position: relative;
+  margin-top: 20px;
+  margin-right: -50px;
+  animation: rhr 4s infinite;
+}
+.top {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.red_rect1 {
+  width: 15vw;
+  height: 39vh;
+  position: relative;
+  background-color: #E6332A;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 27.9vh;
+}
+.red_rect1 img {
+  position: relative;
+  max-width: 6vw;
+  margin-left: 4.5vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  animation: wine1 2s infinite;
+}
+.green_rect1 {
+  width: 15vw;
+  height: 39vh;
+  position: relative;
+  background-color: #04ff00;
+  display: flex;
+  margin-top: 27.9vh;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+}
+.green_rect1 img {
+  position: relative;
+  max-width: 9vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  animation: film1 2s infinite;
+}
+.middle {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 78vh;
+}
+.full_l {
+  width: 15vw;
+  height: 78vh;
+  top: 27.9vh;
+  left: 15vw;
+  display: flex;
+  position: relative;
+  background: url('../images/full_l.png');
+  background-size: 200%;
+  overflow: hidden;
+}
+.full_l-cont {
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.full_l-cont img {
+  max-width: 10vw;
+  margin-left: 2.5vw;
+  margin-top: 1vh;
+  margin-bottom: -1vh;
+  position: relative;
+  animation: skittle1 2s alternate infinite;
+}
+.purple {
+  width: 14vw;
+  margin-left: -15vw;
+  margin-right: 0.5vw;
+  margin-top: -40vh;
+  animation: purple1 4s alternate infinite;
+}
+.switch_l, .switch_r {
+  animation: switch 2s steps(1) infinite;
+}
+.full_r {
+  width: 15vw;
+  height: 78vh;
+  top: 27.9vh;
+  left: 55vw;
+  display: flex;
+  position: relative;
+  background: url('../images/full_r.png');
+  background-size: 200%;
+  overflow: hidden;
+}
+.full_r-cont {
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.full_r-cont img {
+  max-width: 10vw;
+  margin-left: 2.5vw;
+  margin-top: 1vh;
+  margin-bottom: -1.5vh;
+  position: relative;
+  animation: skittle1 2s alternate infinite;
+}
+.green {
+  width: 12vw;
+  margin-left: -20vw;
+  margin-right: 1.5vw;
+  margin-top: 0;
+  animation: green1 4s alternate infinite;
+}
+.black_rect2 {
+  width: 40vw;
+  height: 39vh;
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  top: 27.9vh;
+  left: 30vw;
+}
+.purple_head {
+  width: 30vw;
+  height: 19.4vh;
+  background-color: #82368C;
+  border-radius: 50%;
+  margin-top: 4vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.tentacles {
+  width: 30vw;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.tentacle1, .tentacle2, .tentacle3, .tentacle4, .tentacle5, .tentacle6, .tentacle7 {
+  width: 3vw;
+  position: relative;
+  background-color: #82368C;
+  margin-top: 50%;
+}
+.tentacle1 {
+  height: 90%;
+  animation: tentacle1 8s alternate infinite;
+}
+.tentacle2 {
+  height: 90%;
+  animation: tentacle2 8s alternate infinite;
+}
+.tentacle3 {
+  height: 115%;
+  animation: tentacle3 8s alternate infinite;
+}
+.tentacle4 {
+  height: 100%;
+  animation: tentacle4 8s alternate infinite;
+}
+.tentacle5 {
+  height: 95%;
+  animation: tentacle5 8s alternate infinite;
+}
+.tentacle6 {
+  height: 110%;
+  animation: tentacle6 8s alternate infinite;
+}
+.tentacle7 {
+  height: 75%;
+  animation: tentacle7 8s alternate infinite;
+}
+.eyes {
+  height: 2.328vh;
+  width: 24vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 4.5vh;
+}
+.eye {
+  width: 30%;
+  height: 206.5%;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  margin: 1.5% 1.5% 1.5% 1.5%;
+  display: flex;
+  justify-content: center;
+}
+.pupil {
+  width: 27%;
+  height: 27%;
+  background-color: black;
+  border-radius: 100%;
+  align-self: center;
+  position: absolute;
+}
+.pupil1 {
+  animation: pupil1 4s infinite;
+}
+.pupil2 {
+  animation: pupil2 4s infinite;
+}
+.pupil3 {
+  animation: pupil3 4s infinite;
+}
+.pupil4 {
+  animation: pupil4 4s infinite;
+}
+.pupil5 {
+  animation: pupil5 4s infinite;
+}
+.pupil6 {
+  animation: pupil6 4s infinite;
+}
+.logo {
+  width: 40vw;
+  height: 39vh;
+  top: 39vh;
+  left: 0;
+  display: block;
+  position: relative;
+  background: url('../images/boo-logo.png');
+  background-size: 400%;
+  animation: logo1 4s steps(1) infinite;
+}
+.bottom {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.green_rect2 {
+  width: 15vw;
+  height: 39vh;
+  position: relative;
+  background-color: #04ff00;
+  display: flex;
+  margin-top: 66.9vh;
+  overflow: hidden;
+}
+.green_rect2 img {
+  width: 12vw;
+  margin-left: 1.5vw;
+  animation: red1 4s alternate infinite;
+}
+.red_rect2 {
+  width: 15vw;
+  height: 39vh;
+  position: relative;
+  background-color: #E6332A;
+  display: flex;
+  margin-top: 66.9vh;
+  overflow: hidden;
+}
+.red_rect2 img {
+  width: 12vw;
+  margin-left: 1.5vw;
+  animation: flying1 4s alternate infinite;
+}
+.black_rect3 {
+  width: 100vw;
+  height: 28vw;
+  margin-top: 105.7vh;
+  position: absolute;
+  background-color: black;
+  display: inline-flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.black_rect3 img {
+  min-width: 10vw;
+  min-height: 10vh;
+  max-height: 75vh;
+  max-width: 75vw;
+  position: relative;
+  margin-top: 20px;
+}
+.info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.black_rect3 p {
+  position: relative;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 5vw;
+  color: white;
+  margin-top: 20px;
+}
+.address p {
+  position: relative;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2vw;
+  color: white;
+  margin-top: -5px;
+}
+
+/* анимация фона */
+@keyframes switch {
+  0% {background-position: 0% top;}
+  50% {background-position: 100% top;}
+}
+/* анимация рук */
+@keyframes rhl {
+  0% {transform: rotate(0deg);}
+  33% {transform: rotate(-8deg) scale(105%);}
+  66% {transform: rotate(5deg) scale(110%);}
+}
+@keyframes rhr {
+  0% {transform: rotate(0deg);}
+  33% {transform: rotate(8deg) scale(105%);}
+  66% {transform: rotate(-5deg) scale(110%);}
+}
+/* анимация глаз (зрачков) */
+@keyframes pupil1 {
+  0% {transform: translateX(0) translateY(0);}
+  20% {transform: translateX(-15%) translateY(0);}
+  40% {transform: translateX(-15%) translateY(15%);}
+  60% {transform: translateX(15%) translateY(-15%);}
+  80% {transform: translateX(-15%) translateY(0);}
+}
+@keyframes pupil2 {
+  0% {transform: translateX(0) translateY(0);}
+  20% {transform: translateX(55%) translateY(0);}
+  40% {transform: translateX(-55%) translateY(-55%);}
+  60% {transform: translateX(55%) translateY(55%);}
+  80% {transform: translateX(-55%) translateY(0);}
+}
+@keyframes pupil3 {
+  0% {transform: translateX(0) translateY(0);}
+  20% {transform: translateX(55%) translateY(0);}
+  40% {transform: translateX(55%) translateY(55%);}
+  60% {transform: translateX(55%) translateY(55%);}
+  80% {transform: translateX(55%) translateY(0);}
+}
+@keyframes pupil4 {
+  0% {transform: translateX(0) translateY(0);}
+  20% {transform: translateX(-55%) translateY(0);}
+  40% {transform: translateX(-55%) translateY(-55%);}
+  60% {transform: translateX(-55%) translateY(55%);}
+  80% {transform: translateX(55%) translateY(55%);}
+}
+@keyframes pupil5 {
+  0% {transform: translateX(0) translateY(0);}
+  20% {transform: translateX(55%) translateY(55%);}
+  40% {transform: translateX(-55%) translateY(55%);}
+  60% {transform: translateX(55%) translateY(-55%);}
+  80% {transform: translateX(55%) translateY(0);}
+}
+@keyframes pupil6 {
+  0% {transform: translateX(0) translateY(0);}
+  20% {transform: translateX(-55%) translateY(0);}
+  40% {transform: translateX(55%) translateY(-55%);}
+  60% {transform: translateX(-55%) translateY(-55%);}
+  80% {transform: translateX(-55%) translateY(0);}
+}
+/* анимация щупалец */
+@keyframes tentacle1 {
+  0% {transform-origin: top; transform: scaleY(40%);}
+  20% {transform-origin: top; transform: scaleY(125%);}
+  40% {transform-origin: top; transform: scaleY(70%);}
+  60% {transform-origin: top; transform: scaleY(100%);}
+  80% {transform-origin: top; transform: scaleY(60%);}
+}
+@keyframes tentacle2 {
+  0% {transform-origin: top; transform: scaleY(70%);}
+  20% {transform-origin: top; transform: scaleY(140%);}
+  40% {transform-origin: top; transform: scaleY(120%);}
+  60% {transform-origin: top; transform: scaleY(80%);}
+  80% {transform-origin: top; transform: scaleY(60%);}
+}
+@keyframes tentacle3 {
+  0% {transform-origin: top; transform: scaleY(70%);}
+  20% {transform-origin: top; transform: scaleY(50%);}
+  40% {transform-origin: top; transform: scaleY(100%);}
+  60% {transform-origin: top; transform: scaleY(50%);}
+  80% {transform-origin: top; transform: scaleY(110%);}
+}
+@keyframes tentacle4 {
+  0% {transform-origin: top; transform: scaleY(70%);}
+  20% {transform-origin: top; transform: scaleY(105%);}
+  40% {transform-origin: top; transform: scaleY(80%);}
+  60% {transform-origin: top; transform: scaleY(100%);}
+  80% {transform-origin: top; transform: scaleY(65%);}
+}
+@keyframes tentacle5 {
+  0% {transform-origin: top; transform: scaleY(100%);}
+  20% {transform-origin: top; transform: scaleY(90%);}
+  40% {transform-origin: top; transform: scaleY(70%);}
+  60% {transform-origin: top; transform: scaleY(105%);}
+  80% {transform-origin: top; transform: scaleY(60%);}
+}
+@keyframes tentacle6 {
+  0% {transform-origin: top; transform: scaleY(90%);}
+  20% {transform-origin: top; transform: scaleY(105%);}
+  40% {transform-origin: top; transform: scaleY(70%);}
+  60% {transform-origin: top; transform: scaleY(100%);}
+  80% {transform-origin: top; transform: scaleY(80%);}
+}
+@keyframes tentacle7 {
+  0% {transform-origin: top; transform: scaleY(80%);}
+  20% {transform-origin: top; transform: scaleY(100%);}
+  40% {transform-origin: top; transform: scaleY(80%);}
+  60% {transform-origin: top; transform: scaleY(110%);}
+  80% {transform-origin: top; transform: scaleY(60%);}
+}
+/* анимация лого */
+@keyframes logo1 {
+  0% {background-position: -100% top;}
+  25% {background-position: -66.666666666666% top;}
+  50% {background-position: -33.333333333333% top;}
+  75% {background-position: 0% top;}
+}
+@keyframes wine1 {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(360deg);}
+}
+@keyframes film1 {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(-360deg);}
+}
+@keyframes skittle1 {
+  0% {transition: scale(100%)}
+  50% {transform: scale(80%);}
+}
+@keyframes flying1 {
+  0% {transform: translateY(-40%);}
+  100% {transform: translateY(40%);}
+}
+@keyframes red1 {
+  0% {transform: translateY(5%);}
+  100% {transform: translateY(80%);}
+}
+@keyframes green1 {
+  0% {transform: translateY(90%);}
+  100% {transform: translateY(50%);}
+}
+@keyframes purple1 {
+  0% {transform: translateY(90vh);}
+  100% {transform: translateY(65vh);}
+}
